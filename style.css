@@ -150,3 +150,52 @@ header {
     font-size: 16px;
     line-height: 26px;
 }
+
+.skills {
+    height: 653px;
+}
+
+.skills img {
+    width: 555px;
+    height: 450px;
+}
+
+.skill-list {
+    width: 445px;
+    margin-right: 150px;
+}
+
+.skill-list h2 {
+    margin-bottom: 50px;
+}
+
+.skill-list-item {
+    margin-bottom: 30px;
+}
+
+.skill-list-item .title{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.progressbar {
+    height: 4px;
+    background-color: #C4C4C4;
+}
+
+.progress {
+    height: 4px;
+    background: linear-gradient(180deg, #B20000 10.94%, #5A0000 99.99%, #5A0000 100%);
+}
+
+.progressbar .adobe {
+    width: 72%;
+}
+
+.progressbar .html {
+    width: 88%;
+}
+
+.progressbar .js {
+    width: 83%;
+}
