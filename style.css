@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-weight: 500;
+    margin: 0;
+}
+
+p, a {
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    font-size: 32px;
+    color: black;
+    line-height: 38px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 79px;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #BEBEBE;
+    text-align: center;
+}
+
+header {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header_logo {
+    width: 160px;
+    height: 48px;
+}
+
+.navigation {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+}
+
+.nav-item {
+    transition: all ease 0.3s;
+    text-decoration: none;
+    color: white;
+    margin-right: 42px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-item:hover {
+    color: #B20000;
+}
+
+.intro {
+    background-color: #141414;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro img {
+    width: 343px;
+    height: 324px;
+    margin-right: 100px;
+}
+
+.intro .text-area p {
+    text-align: start;
+    margin: 60px 0;
+    max-width: 540px;
+}
+
+.intro button {
+    background: #B20000;
+    border: none;
+    color: white;
+    padding: 25px 41px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.intro button:hover {
+    cursor: pointer;
+}
