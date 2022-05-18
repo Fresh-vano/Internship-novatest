@@ -199,3 +199,37 @@ header {
 .progressbar .js {
     width: 83%;
 }
+
+.video {
+    height: 1004px;
+    background-color: #141414;
+    flex-direction: column;
+}
+
+.video h2 {
+    text-align: center;
+    color: white;
+}
+
+.video p {
+    width: 540px;
+    margin-top: 50px;
+    margin-bottom: 57px;
+    color: #BEBEBE;
+}
+
+.video-container {
+    width: 1110px;
+    height: 600px;
+}
+
+.video-container img {
+    position: absolute;
+}
+
+.video-container .play-btn {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
