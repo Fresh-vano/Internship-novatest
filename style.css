@@ -28,8 +28,14 @@ h1 {
 p {
     font-size: 16px;
     line-height: 26px;
-    color: #BEBEBE;
+    color: #727272;
     text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -71,16 +77,6 @@ header {
 .intro {
     background-color: #141414;
     height: 700px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container {
-    max-width: 1200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .intro img {
@@ -92,11 +88,12 @@ header {
 .intro .text-area p {
     text-align: start;
     margin: 60px 0;
+    color: #BEBEBE;
     max-width: 540px;
 }
 
 .intro button {
-    background: #B20000;
+    background-color: #B20000;
     border: none;
     color: white;
     padding: 25px 41px;
@@ -108,4 +105,48 @@ header {
 
 .intro button:hover {
     cursor: pointer;
+}
+
+.about {
+    height: 366px;
+    flex-direction: column;
+}
+
+.about p {
+    max-width: 540px;
+    margin-top: 50px;
+}
+
+.numbers {
+    height: 250px;
+    background-color: #B20000;
+}
+
+.number-item {
+    margin-right: 49px;
+    min-width: 141px;
+    display: flex;
+}
+
+.number-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.number-item p {
+    color: white;
+    text-align: left;
+}
+
+.number-item .number {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.number-item .subtitle  {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
