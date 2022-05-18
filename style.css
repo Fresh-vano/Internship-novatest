@@ -3,6 +3,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+}
+
 h1, h2 {
     font-weight: 500;
     margin: 0;
@@ -101,9 +105,6 @@ header {
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.1em;
-}
-
-.intro button:hover {
     cursor: pointer;
 }
 
@@ -126,6 +127,10 @@ header {
     margin-right: 49px;
     min-width: 141px;
     display: flex;
+}
+
+.number-item:last-child {
+    margin-right: 0;
 }
 
 .number-item img {
@@ -232,4 +237,64 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.projects {
+    height: 480px;
+    padding-top: 28px;
+}
+
+.progress img {
+    height: 480px;
+    width: 480px;
+}
+
+.clients {
+    height: 327px;
+}
+
+.clients .img-block {
+    margin-right: 30px;
+    width: 255px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clients img {
+    max-width: 255px;
+    max-height: 120px;
+}
+
+footer {
+    height: 151px;
+    background-color: #141414;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h2 {
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+footer p {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+footer img {
+    max-width: 44px;
+    max-height: 40px;
+    margin-right: 22px;
+    cursor: pointer;
+}
+
+footer img:last-child {
+    margin-right: 0;
 }
